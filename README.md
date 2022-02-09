@@ -94,13 +94,15 @@ I must first express my gratitude to [Ibrahim Shah](example.com) for introducing
 
 <br />
 
-**Built With**
+**Built With** (MERN Stack)
 
-- [React.js](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [Bootstrap](https://getbootstrap.com)
-- [Django](https://www.djangoproject.com/)
 - [MongoDB](https://www.mongodb.com/)
+- [ExpressJS](https://expressjs.com/)
+- [React.js](https://reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+<br />
+- [Bootstrap](https://getbootstrap.com)
+- [React Native](https://reactnative.dev/)
 
 <br />
 

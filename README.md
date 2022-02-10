@@ -2,7 +2,7 @@
 <br  />
 <div align="center">
 	<a  href="https://github.com/">
-		<img src="img/logo.png" alt="Logo" width="80" height="80">
+		<img src="img/indut_logo_512.png" alt="Logo" width="80" height="80">
 	</a>
 
 # indut
@@ -123,4 +123,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!--- reference -->
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: img/screenshot.png

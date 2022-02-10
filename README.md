@@ -90,6 +90,8 @@ Any further suggestions or feedback would also be greatly appreciated. They can 
 
 ## Acknowledgments</div>
 
+<!-- add the links to friends -->
+
 I must first express my gratitude to [Ibrahim Shah](example.com) for introducing me to CS and fostering my passion for coding, and [Mark Park](example.com) for contributing his fashion perspective to develop my algorithm.
 
 <br />
@@ -108,7 +110,7 @@ I must first express my gratitude to [Ibrahim Shah](example.com) for introducing
 **Open source resources I used:**
 
 - [React Icons](https://react-icons.github.io/react-icons/search)
-- [Readme Template](https://github.com/othneildrew/Best-README-Template#built-with)
+- [Readme Template](https://github.com/othneildrew/Best-README-Template)
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
 <div id="License" align="center">

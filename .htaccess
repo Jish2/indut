@@ -1,0 +1,18 @@
+
+RewriteCond %{REQUEST_FILENAME} !-d          # is not directory
+RewriteCond %{REQUEST_FILENAME}\.html -f     # is an existing html file
+RewriteCond %{REQUEST_URI} ^(.+)\.html$      # request URI ends with .html
+RewriteRule (.*)\.html$ /$1 [R=301,L]        # redirect from index.html to index
+
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^indut.net[nc]
+RewriteRule ^(.*)$ http://www.indut.net/$1 [r=301,nc]
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+ 

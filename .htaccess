@@ -4,15 +4,41 @@ RewriteCond %{REQUEST_FILENAME}\.html -f     # is an existing html file
 RewriteCond %{REQUEST_URI} ^(.+)\.html$      # request URI ends with .html
 RewriteRule (.*)\.html$ /$1 [R=301,L]        # redirect from index.html to index
 
-//Rewrite to www
-Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^indut.net[nc]
-RewriteRule ^(.*)$ http://www.indut.net/$1 [r=301,nc]
 
-//Prevent viewing of .htaccess file
+# Redirect to domain without www.
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule .* http://%1%{REQUEST_URI} [R=301,L]
+# Same for HTTPS:
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule .* https://%1%{REQUEST_URI} [R=301,L]
+
+# 301 Redirect URLs.
+Redirect 301 /confirmed/index.html /confirmed
+
+# Stop hotlinking.
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} ^https?://([^/]+)/ [NC]
+RewriteCond %1#%{HTTP_HOST} !^(.+)#\1$
+RewriteRule \.(jpg|jpeg|png|gif|swf|svg)$ - [NC,F,L]
+
+# Add Caching.
+<FilesMatch ".(ico|jpg|jpeg|png|gif|js|css|swf)$">
+    Header set Cache-Control "max-age=86400"
+</FilesMatch>
+
+RewriteCond %{REMOTE_ADDR} !^2601\:249\:a00\:4e40\:ad39\:f34c\:82d0\:e808$
+RewriteCond %{REQUEST_URI} !^/index\.html$ [NC]
+RewriteCond %{REQUEST_URI} !\.(jpg|jpeg|png|gif|svg|swf|css|ico|js)$ [NC]
+RewriteRule .* /index.html [R=302,L]
+
+# Prevent viewing of htaccess file.
 <Files .htaccess>
-order allow,deny
-deny from all
+    order allow,deny
+    deny from all
 </Files>
- 
+
+# Prevent directory listings
+Options All -Indexes

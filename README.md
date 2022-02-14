@@ -28,7 +28,7 @@
 
 ## About The Project
 
-[![screenshot (in progress)][product-screenshot]]
+![screenshot (in progress)[product-screenshot]]
 
 </div>
 
@@ -54,10 +54,10 @@ Visit [indut.net](https://indut.net/) and login through
 
 - [ ] Logos and branding
 - [ ] Figma mockups
+- [ ] Frontend with React
+- [ ] Bootstrap for UI
+- [ ] Firebase
 - [ ] Google authentication
-- [ ] React.js and frontend
-- [ ] Django and backend
-- [ ] Algorithm
 - [ ] Database
 
 See the [open issues](https://github.com/Jish2/indut/issues) for a full list of proposed features (and known issues).

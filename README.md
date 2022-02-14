@@ -28,7 +28,7 @@
 
 ## About The Project
 
-![screenshot (in progress)[product-screenshot]]
+![screenshot](product-screenshot)
 
 </div>
 

@@ -28,7 +28,7 @@
 
 ## About The Project
 
-![screenshot](product-screenshot)
+![screenshot](/screenshot.png)
 
 </div>
 
@@ -127,7 +127,3 @@ I must first express my gratitude to [Ibrahim Shah](example.com) for introducing
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
-
-<!--- reference -->
-
-[product-screenshot]: screenshot.png

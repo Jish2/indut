@@ -28,7 +28,7 @@
 
 ## About The Project
 
-[![screenshot (in progress)][product-screenshot]](https://example.com)
+[![screenshot (in progress)][product-screenshot]]
 
 </div>
 
@@ -96,21 +96,28 @@ I must first express my gratitude to [Ibrahim Shah](example.com) for introducing
 
 <br />
 
-**Built With** (MERN Stack)
+**Built With**
 
-- [MongoDB](https://www.mongodb.com/)
-- [ExpressJS](https://expressjs.com/)
 - [React.js](https://reactjs.org/)
-- [Node.js](https://nodejs.org/en/)
+- [Firebase](https://firebase.google.com/)
 - [Bootstrap](https://getbootstrap.com)
 - [React Native](https://reactnative.dev/)
 
 <br />
 
-**Open source resources I used:**
+**React Libraries** (and Open Source Utilities)
 
+- [React-Redux](https://react-redux.js.org/)
+- [Redux](https://redux.js.org/)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+- [React-Router](https://reactrouter.com/)
 - [React Icons](https://react-icons.github.io/react-icons/search)
 - [Readme Template](https://github.com/othneildrew/Best-README-Template)
+
+**API**
+
+- [OpenWeatherMap](https://openweathermap.org/api)
+
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
 <div id="License" align="center">
@@ -123,4 +130,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!--- reference -->
 
-[product-screenshot]: img/screenshot.png
+[product-screenshot]: screenshot.png

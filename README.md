@@ -92,7 +92,7 @@ Any further suggestions or feedback would also be greatly appreciated. They can 
 
 <!-- add the links to friends -->
 
-I must first express my gratitude to [Ibrahim Shah](example.com) for introducing me to CS and fostering my passion for coding, and [Mark Park](example.com) for contributing his fashion perspective to develop my algorithm.
+I must first express my gratitude to [Ibrahim Shah](example.com) for introducing me to CS and fostering my passion for coding.
 
 <br />
 
